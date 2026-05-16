@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+/* LOGIN PAGE */
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+/* FIXED IMAGE + OVERLAY */
+.login-left {
+  flex: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+}
+
+.container {
+  background: #1f2937;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.container h2 {
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+/* BUTTON GENERAL */
+button {
+  padding: 10px;
+  background: #ff2e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* TOGGLE TEXT */
+.toggleText {
+  color: #4ade80;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* HOME PAGE */
+.home {
+  display: none;
+  background: #0f172a;
+  min-height: 100vh;
+}
+
+/* NAVBAR FIX */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #111827;
+  color: white;
+}
+
+.navbar h2 {
+  color: #ff2e63;
+}
+
+.navbar div {
+  display: flex;
+  gap: 10px;
+}
+
+/* SMALL NAV BUTTONS */
+.navbar button {
+  padding: 6px 12px;
+  font-size: 12px;
+  width: auto;
+}
+
+/* BANNER */
+.banner {
+  height: 250px;
+  background: url("https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg")
+    center/cover;
+}
+
+/* EVENTS */
+.title {
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eventCard {
+  width: 250px;
+  margin: 15px;
+  background: #1f2937;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  transition: 0.3s;
+}
+
+.eventCard:hover {
+  transform: scale(1.05);
+}
+
+.eventCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.eventCard h3 {
+  padding: 10px;
+}
+
+.ticketCount {
+  padding: 0 10px;
+  color: #4ade80;
+}
+
+.eventCard button {
+  margin: 10px;
+  width: 90%;
+}
+
+/* TICKET PAGE */
+.ticket {
+  margin: 120px auto;
+  width: 300px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* SMALL TICKET BUTTONS */
+.ticket button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+/* HISTORY */
+.historyCard {
+  background: #1f2937;
+  margin: 15px;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  color: white;
+}
