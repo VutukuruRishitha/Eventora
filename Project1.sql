@@ -1,0 +1,5 @@
+SHOW DATABASES;
+USE eventora;
+SHOW TABLES;
+SELECT * FROM users;
+SELECT * FROM bookings;
